@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Lely Test Automation Suite" parallel="false">
+
+    <test name="API Tests">
+        <classes>
+            <class name="com.example.tests.UserAPITest"/>
+        </classes>
+    </test>
+
+    <test name="UI Tests">
+        <classes>
+            <class name="com.example.tests.DocumentTest"/>
+            <class name="com.example.tests.SearchTest"/>
+        </classes>
+    </test>
+
+</suite>
