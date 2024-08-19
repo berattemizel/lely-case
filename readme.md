@@ -10,6 +10,7 @@ This project is an automation test suite for **Lely**. The project includes both
 - [Project Structure](#project-structure)
 - [Setup Instructions](#setup-instructions)
 - [Running Tests](#running-tests)
+- [Generating Reports](#generating-reports)
 
 
 ## Project Overview
@@ -85,4 +86,11 @@ mvn clean install
 ## Running Tests
 ```bash
 mvn test
+```
+
+## Generating Reports
+
+To generate an Allure report after running tests:
+```bash
+mvn allure:serve
 ```
