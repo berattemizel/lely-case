@@ -37,6 +37,7 @@ This project uses the following dependencies, managed via Maven:
 - **WebDriverManager** to manage browser drivers
 - **SLF4J** and **Logback** for logging
 - **JSON** for handling JSON data
+- **Allure** for generate report
 
 
 ## Project Structure
