@@ -93,5 +93,5 @@ mvn test
 
 To generate an Allure report after running tests:
 ```bash
-mvn allure:serve
+allure serve target/allure-results
 ```

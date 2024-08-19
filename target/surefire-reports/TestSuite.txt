@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 35.311 s <<< FAILURE! - in TestSuite
+testGetUsers(com.example.tests.UserAPITest)  Time elapsed: 0.432 s  <<< FAILURE!
+java.lang.AssertionError: ID should be a 4-digit integer, but found: 7350526 with 7 digits. expected [true] but found [false]
+	at com.example.tests.UserAPITest.testGetUsers(UserAPITest.java:21)
+
+testSearchFunctionality(com.example.tests.SearchTest)  Time elapsed: 1.964 s  <<< FAILURE!
+java.lang.AssertionError: Not all search results contain the keyword 'happy' expected [true] but found [false]
+	at com.example.tests.SearchTest.testSearchFunctionality(SearchTest.java:25)
+
